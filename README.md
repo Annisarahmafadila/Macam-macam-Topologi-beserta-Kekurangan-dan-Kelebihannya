@@ -1,10 +1,13 @@
-# Macam-macam-Topologi-beserta-Kekurangan-dan-Kelebihannya
+# Macam-macam-Topologi-Jaringan beserta-Kekurangan-dan-Kelebihannya
 Topologi jaringan komputer adalah bagaimana komputer terhubung satu sama lain untuk membentuk sebuah jaringan. Dengan topologi jaringan, pengguna dapat berkomunikasi dengan pengguna lain dengan mudah meskipun berada di lokasi yang berbeda.
 ___
 Topologi jaringan adalah cara di mana perangkat-perangkat dalam jaringan dihubungkan satu sama lain. Berikut adalah beberapa jenis topologi jaringan beserta kelebihan dan kekurangannya:
 
-1. Topologi Bus
+1. Topologi Bus 
 Topologi bus menggunakan satu kabel utama (bus) yang menghubungkan semua perangkat dalam jaringan.
+
+![IMG_3427](https://github.com/user-attachments/assets/787d9be4-0a1d-434b-b167-f54e657a74e9)
+
 
     Kelebihan:
 - Hemat kabel, karena hanya membutuhkan satu kabel utama.
@@ -19,6 +22,10 @@ ___
 2. Topologi Ring (Cincin)
 Pada topologi ring, setiap perangkat terhubung ke dua perangkat lain, sehingga membentuk lingkaran atau cincin.
 
+![IMG_3428](https://github.com/user-attachments/assets/2abd44c7-3b0f-4985-93cc-36cd34a6fd00)
+
+
+
      Kelebihan:
 - Data mengalir dalam satu arah, sehingga mengurangi kemungkinan tabrakan data.
 - Performa jaringan stabil pada jumlah perangkat yang moderat.
@@ -30,6 +37,10 @@ Pada topologi ring, setiap perangkat terhubung ke dua perangkat lain, sehingga m
 ---
 3. Topologi Star (Bintang)
 Pada topologi star, semua perangkat terhubung ke satu perangkat pusat, biasanya berupa switch atau hub.
+
+![IMG_3426](https://github.com/user-attachments/assets/e3b9d9cb-f4c3-41bc-91d3-031cee6e4872)
+
+
 
      Kelebihan:
 - Jika satu perangkat mengalami kerusakan, jaringan lainnya tidak terpengaruh.
@@ -44,6 +55,9 @@ ___
 4. Topologi Mesh
 Pada topologi mesh, setiap perangkat terhubung langsung dengan perangkat lain dalam jaringan, menciptakan banyak jalur koneksi.
 
+![IMG_3425](https://github.com/user-attachments/assets/19385745-5fd5-4fb8-afe3-3a21b0b366b0)
+
+
      Kelebihan:
 - Sangat andal, karena jika satu koneksi gagal, data masih bisa dikirim melalui rute lain.
 - Memastikan performa yang tinggi karena beberapa jalur yang tersedia.
@@ -56,6 +70,11 @@ ___
 5. Topologi Tree (Pohon)
 Topologi tree adalah kombinasi dari beberapa topologi star yang dihubungkan ke dalam topologi bus.
 
+![IMG_3429](https://github.com/user-attachments/assets/24db6426-6cbe-4e57-9376-7f999dc6025d)
+
+
+
+
      Kelebihan:
 - Dapat mengelola jaringan yang besar dengan mudah melalui pembagian kelompok (sub-net).
 - Mudah untuk dikembangkan sesuai kebutuhan jaringan.
@@ -67,6 +86,9 @@ Topologi tree adalah kombinasi dari beberapa topologi star yang dihubungkan ke d
 ___
 6. Topologi Hybrid
 Topologi hybrid adalah gabungan dari dua atau lebih topologi yang berbeda, seperti star dan mesh.
+
+![IMG_3430](https://github.com/user-attachments/assets/daf2907e-3a22-448f-afa1-dec6cb8b4ee0)
+
 
      Kelebihan:
 - Fleksibel dan dapat disesuaikan dengan kebutuhan spesifik jaringan.
@@ -81,4 +103,5 @@ Setiap topologi memiliki kegunaan tersendiri tergantung pada kebutuhan jaringan,
 
 - Untuk jaringan kecil hingga menengah, Topologi star biasanya merupakan pilihan terbaik karena kemudahannya dalam instalasi dan pemeliharaan.
 - Untuk jaringan besar atau yang memerlukan ketahanan tinggi, Topologi mesh atau hybrid adalah pilihan yang lebih baik, meskipun lebih mahal dan kompleks.
-Pemilihan topologi ideal harus disesuaikan dengan kebutuhan, anggaran, dan skala jaringan.
+  
+Pemilihan topologi yang ideal harus disesuaikan dengan kebutuhan, anggaran, dan skala jaringan.
